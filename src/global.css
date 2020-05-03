@@ -12,9 +12,40 @@ body{
     background-color: #f0f0f5;
     -webkit-font-smoothing: antialliased;
 }
+
 input,button,textarea{
     font: 400 14px Roboto, sans-serif;
 }
+
 button{
     cursor: pointer;
 }
+
+/* muda para vermelho a cor do input selecionado */
+input:focus {
+    border-bottom: 1px solid #f44336 !important;
+    box-shadow: 0 1px 0 0 #f44336 !important;
+}
+
+textarea:focus {
+    border-bottom: 1px solid #f44336 !important;
+    box-shadow: 0 1px 0 0 #f44336 !important;
+}
+
+label.active {
+    color: #f44336 !important;
+}
+
+/* muda a cor dos placeholds em todos os navegadores */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #616161;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #616161;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #616161;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #616161;
+  }
