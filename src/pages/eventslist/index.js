@@ -50,10 +50,10 @@ export default function EventList(){
                     </div>
                     <strong>Evento</strong>
                     <div className="buttonlight">
-                        <button  className='tiny-gray-button'>
+                        <Link to="/eventdetail"  className='tiny-gray-button'>
                                 Entrar
                                 <img src={Green} alt='green' />
-                        </button>
+                        </Link>
                     </div>
                 </li>
                 <li>
