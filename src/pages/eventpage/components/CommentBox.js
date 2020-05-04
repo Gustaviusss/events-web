@@ -37,7 +37,7 @@ class CommentBox extends Component {
 
   render() {
     return (
-      <div className="row white">
+      <div className="row-white">
         <form className="col s12" onSubmit={this.addComment}>
           <div className="row">
             <div className="input-field col s12">

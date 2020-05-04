@@ -1,0 +1,25 @@
+.white{
+    width: 100%;
+    max-width: 1500px;
+    background-color: #a8a8b3;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: center;
+}
+.white .nav-wrapper{
+    width: 1440px;
+    display: flex;
+    align-items: center;
+}
+.white .nav-wrapper .right-hide-on-med-and-down{
+    margin-left: auto;
+}
+.white .nav-wrapper .img{
+    top: 8px;
+    left:64px;
+}
+.row-white{
+    width: 240px;
+    height: 76px;
+}
+.col-s3{}
