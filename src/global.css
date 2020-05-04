@@ -9,7 +9,7 @@
 
 body{
     font: 400 14px Roboto, sans-serif;
-    background-color: #f0f0f5;
+    background-color: #E5E5E5;
     -webkit-font-smoothing: antialliased;
 }
 input,button,textarea{
@@ -17,4 +17,40 @@ input,button,textarea{
 }
 button{
     cursor: pointer;
+    text-align: center;
+}
+.tiny-button{
+    width: 100px;
+    height: 42px;
+    background:#E02041;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 16px;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+}
+.tiny-gray-button{
+    width: 100px;
+    height: 42px;
+    background:#A8A8B3;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 16px;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+}
+.normal-link{
+    color: #A8A8B3;
+    font-weight: medium;
+    
 }
