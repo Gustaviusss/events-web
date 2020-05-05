@@ -6,6 +6,7 @@ import NavBar from './NavBar';
 import Footer from './Footer';
 import Participantes from './Participantes'
 
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -15,7 +16,7 @@ class App extends Component {
       comments: []
     }
   }
-
+  
   componentDidMount() {
     /* global Ably */
     const channel = Ably.channels.get('comments');
@@ -49,17 +50,24 @@ class App extends Component {
     return (
       <div class="row">
         <NavBar />
-        <div class="col s3">
-          <Comments comments={this.state.comments} />
+        <div class="col s4">        
+        <h4><strong>Perguntas</strong></h4>
+        
+          <div className="comments">
+            <Comments comments={this.state.comments} />
+          </div>
           <CommentBox handleAddComment={this.handleAddComment} />
         </div>
         <div class="col s6">
           <Live />
         </div>
-        <div class="col s3">
+        <div class="col s2">
           <Participantes />
-        </div>
-        <Footer />
+        </div>        
+        
+        <div class="col s12">
+        <Footer />        
+        </div>        
       </div>
     );
   }

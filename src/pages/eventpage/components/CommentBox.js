@@ -36,24 +36,24 @@ class CommentBox extends Component {
   }
 
   render() {
-    return (
-      <div className="row white">
-        <form className="col s12" onSubmit={this.addComment}>
-          <div className="row">
-            <div className="input-field col s12">
+    return (      
+      <div className="row white commentBox">
+        <form className="col s12 " onSubmit={this.addComment}>
+          
+            <div className="input-field col s12 ">
               <input id="" type="text" className="input" name="name" placeholder="Nome" />
             </div>
-          </div>
-          <div className="row">
+          
+          
             <div className="input-field col s12">
-              <textarea className="materialize-textarea" name="comment" placeholder="Comentário"></textarea>
+              <textarea className="materialize-textarea" name="comment" placeholder="Digite uma pergunta"></textarea>
             </div>
-          </div>
-          <div className="row center">
-            <button className="btn red darken-1">Enviar</button>
+          
+          <div className="right">
+            <button className="btn-large red darken-1">Enviar</button>
           </div>
         </form>
-      </div>
+      </div>      
     );
   }
 }

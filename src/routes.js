@@ -3,7 +3,7 @@ import {BrowserRouter,Route,Switch} from 'react-router-dom'
 
 import EventList from './pages/eventslist'
 import EventDetail from './pages/eventdetail'
-import EventPage from './pages/eventpage'
+import App from './pages/eventpage/components/App'
 import UserPanel from './pages/userpanel'
 
 function Routes(){
@@ -12,7 +12,7 @@ function Routes(){
             <Switch>
                 <Route exact path='/' component={EventList} />
                 <Route path='/eventdetail' component={EventDetail} />
-                <Route path='/eventpage' component={EventPage} />
+                <Route path='/eventpage' component={App} />
                 <Route path='/userpanel' component={UserPanel} />
             </Switch>
         </BrowserRouter>
