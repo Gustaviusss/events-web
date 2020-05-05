@@ -1,3 +1,144 @@
-h3{
-    color: #715ddc
+.eventlist{
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+    align-items: center;
+    justify-content: center;
+}
+.eventlist header {
+    display: flex;
+    align-items: center;
+}
+.eventlist header button{
+    text-align: center;
+    margin-top:0;
+}
+.eventlist .linkholder{
+    margin-left: auto;
+    margin-right: 64px;
+}
+.normal-link{
+    margin-left: 24px;
+    font-size: 18px;
+}
+.eventowner{
+    font-size: 24px;
+    color: #e02041;
+}
+.eventlist header a{
+    margin-right: 16px;
+    margin-top: 0;
+}
+.eventlist .textholder{
+    position: relative;
+    left: 250px;
+    text-align: center;
+    margin-top: 24px;
+    width: 636px;
+    font-weight:500;
+    color:#737380;
+    font-size: 24px;
+}
+.eventlist .busca{
+    position: relative;
+    background-color:#FFF;
+    border:none;
+    border-radius:10px;
+    width: 817px;
+    height: 55px;
+    left: 150px;
+    top: 24px;
+}
+.eventlist .busca button{
+    position: absolute;
+    left:8px;
+    border: none;
+    background: transparent;
+    top: 12px;
+    margin-left: 8px;
+}
+.eventlist .busca input{
+    margin-top: 8px;
+    margin-left: 64px;
+    width: 500px;
+    background: transparent;
+    cursor: text;
+    border: none;
+    font-size: 18px;
+}
+.eventlist ul{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 48px;
+    margin-top: 48px;
+    grid-gap: 24px;
+
+}
+.eventlist ul li{
+    position: relative;
+    background-color: #F0F0F5;
+    box-shadow: 0px 0px 100px
+    rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border:none;
+    width: 300px;
+    height: 200px;
+    list-style: none;
+}
+.eventlist .buttons{
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    border: 0;
+}
+.eventlist .buttons button:hover{
+    filter: brightness(70%);
+}
+.eventlist ul li img{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 24px;
+    top: 24px;
+
+}
+.eventlist ul .tiny-gray-button{
+    width: 100%;
+    background: #737380;
+    color:#fff;
+    text-align: center;
+    font-size: 18px;
+}
+.eventlist ul li button{
+    background: transparent;
+    margin-right: 4px;
+    border: 0;
+    color: #737380;
+}
+.eventlist ul li button:hover{
+    opacity: 0.8;
+}
+.eventlist ul li strong{
+    display: block;
+    margin-top: 80px;
+    margin-left: 120px;
+    color:#000;
+    font-size: 20px;
+    
+}
+.eventlist .buttonlight{
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    margin-left:48px ;
+    margin-top: 16px;
+}
+.eventlist ul li button img{
+    width: 17px;
+    height: 17px;
+    margin-top: 5px;
+    left: 160px;
+    
 }

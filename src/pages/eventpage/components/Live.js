@@ -4,8 +4,8 @@ import YouTube from 'react-youtube';
 class Live extends React.Component {
     render() {
         const opts = {
-            height: '390',
-            width: '600',
+            height: '490',
+            width: '790',
             playerVars: {
                 // https://developers.google.com/youtube/player_parameters
                 autoplay: 1,
