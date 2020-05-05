@@ -6,11 +6,14 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "ably": "^1.1.24",
+    "materialize-css": "^1.0.0-rc.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.10.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-youtube": "^7.11.2"
   },
   "scripts": {
     "start": "react-scripts start",

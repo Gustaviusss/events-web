@@ -26,7 +26,7 @@ export default function EventDetail(){
                     </div>
                         
                     <div className="titulo">
-                        <h1>MegaHack</h1>
+                        <p>MegaHack</p>
                     </div>
 
                     <div className="botoes">
@@ -57,7 +57,7 @@ export default function EventDetail(){
 
                     <div className="patro">
                         <div>
-                            <h1>Patrocinadores</h1>
+                            Patrocinadores
                         </div>
 
                         <div className="patroc">

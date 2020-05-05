@@ -27,7 +27,7 @@
     border-left: 1px#E0E0E4 solid;
     padding-left: 40px;
     flex: 1;
-    font-size: 18px;
+    font-size: 32px;
 }
 
 .header .botoes{
@@ -96,7 +96,8 @@ hr{
 
 .patro div {
     width: 100%;
-    font-size: 12px;
+    font-weight: bold;
+    font-size: 32px;
     color: #E02041;
 }
 
